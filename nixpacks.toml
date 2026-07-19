@@ -1,0 +1,5 @@
+[providers.php]
+mode = "nginx"
+
+[start]
+cmd = "nginx -g 'daemon off;'"
