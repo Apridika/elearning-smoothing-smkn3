@@ -1,6 +1,0 @@
-# Gunakan kurung siku ganda untuk mendefinisikan provider PHP
-[[providers.php]]
-mode = "nginx"
-
-[start]
-cmd = "nginx -g 'daemon off;'"
