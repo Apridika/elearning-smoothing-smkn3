@@ -1,0 +1,2 @@
+[start]
+cmd = "php artisan config:cache && php artisan route:cache && /usr/sbin/nginx -g 'daemon off;'"
