@@ -6,8 +6,8 @@ use Illuminate\Support\Facades\Route;
 
 // Halaman Utama (Home)
 Route::get('/', function () {
-    return view('home');
-})->name('home');
+    return 'Railway berhasil!';
+});
 
 // ==========================================
 // MODUL 1: MATERI (Artikel/Modul Tekstual)
